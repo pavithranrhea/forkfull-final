@@ -1,0 +1,273 @@
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-grid [fixed]="true">
+          <ion-row class="ion-align-items-start">
+
+          <ion-col> 
+            <ion-back-button default-href="#" text = ""></ion-back-button>
+        </ion-col>
+
+        <ion-col>
+          <ion-img src = "../../../../assets/icon/forkfull-titleonly.png" style="width:95px;" >
+          </ion-img>
+        </ion-col>
+
+        <ion-col> 
+          <ion-img src = "../../../../assets/icon/blank.png" style="width:100px; height: 20px;">
+            </ion-img>
+            </ion-col>
+      </ion-row>
+        </ion-grid>
+      </ion-toolbar>
+    </ion-header>
+
+
+<h1> Instructions</h1>
+
+<ion-chip [outline]="true">Boil</ion-chip>
+<ion-chip [outline]="true">Bake</ion-chip>
+<ion-chip [outline]="true">Sautée</ion-chip>
+
+<ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+          <h4>Step 1</h4>
+        </ion-col>
+       </ion-row>
+    <ion-row>
+    <ion-col>
+      <ion-item>
+         <ion-select label="Action" label-placement="floating" fill = "outline">
+        <ion-select-option value="Bake">Bake</ion-select-option>
+        <ion-select-option value="Boil">Boil</ion-select-option>
+        <ion-select-option value="Sautée">Sautée</ion-select-option>
+      </ion-select>
+    </ion-item>
+    </ion-col>
+
+    <ion-col>
+      <ion-item>
+   
+      <ion-select label="Ingredient" label-placement="floating">
+        <ion-select-option value="Chicken">Rice</ion-select-option>
+        <ion-select-option value="Tomato">Eggs</ion-select-option>
+        <ion-select-option value="Spinach">Crab</ion-select-option>
+      </ion-select>
+    </ion-item>
+    </ion-col>
+    </ion-row><br>
+    
+    <ion-row>
+      <ion-input
+      fill = "outline"
+      shape = "round"
+      label="Instruction details"
+      labelPlacement="stacked"
+      [clearOnEdit]="true"
+      placeholder="ex. Add to pot and stir">
+      </ion-input>
+      </ion-row>
+  </ion-grid>
+
+</ion-card>
+
+<ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+          <h4>Step 2</h4>
+        </ion-col>
+       </ion-row>
+    <ion-row>
+    <ion-col>
+      <ion-item>
+   
+      <ion-select label="Action" label-placement="floating">
+        <ion-select-option value="Bake">Bake</ion-select-option>
+        <ion-select-option value="Boil">Boil</ion-select-option>
+        <ion-select-option value="Sautée">Sautée</ion-select-option>
+      </ion-select>
+    </ion-item>
+    </ion-col>
+    <ion-col>
+      <ion-item>
+   
+      <ion-select label="Ingredient" label-placement="floating">
+        <ion-select-option value="Chicken">Chicken</ion-select-option>
+        <ion-select-option value="Tomato">Tomato</ion-select-option>
+        <ion-select-option value="Spinach">Spinach</ion-select-option>
+      </ion-select>
+    </ion-item>
+    </ion-col>
+    </ion-row><br>
+    
+    <ion-row>
+      <ion-input
+      shape = "round"
+      label="Instruction details"
+      labelPlacement="stacked"
+      [clearOnEdit]="true"
+      placeholder="ex. Add to pot and stir">
+      </ion-input>
+      </ion-row>
+      
+  </ion-grid>
+
+</ion-card>
+
+<ion-card>
+  <ion-grid>
+    <ion-row>
+    <ion-col> 
+          <h4>Step 3</h4>
+          </ion-col>
+       </ion-row>
+    <ion-row>
+    <ion-col>
+      <ion-item>
+   
+      <ion-select label="Action" label-placement="floating">
+        <ion-select-option value="Bake">Bake</ion-select-option>
+        <ion-select-option value="Boil">Boil</ion-select-option>
+        <ion-select-option value="Sautée">Sautée</ion-select-option>
+      </ion-select>
+    </ion-item>
+    </ion-col>
+    <ion-col>
+      <ion-item>
+   
+      <ion-select label="Ingredient" label-placement="floating">
+        <ion-select-option value="Chicken">Chicken</ion-select-option>
+        <ion-select-option value="Tomato">Tomato</ion-select-option>
+        <ion-select-option value="Spinach">Spinach</ion-select-option>
+      </ion-select>
+    </ion-item>
+    </ion-col>
+    </ion-row><br>
+    
+    <ion-row>
+      <ion-input
+      shape = "round"
+      label="Instruction details"
+      labelPlacement="stacked"
+      [clearOnEdit]="true"
+      placeholder="ex. Add to pot and stir">
+      </ion-input>
+      </ion-row>
+
+      <ion-row>
+        <ion-fab>
+          <ion-fab-button>
+            <ion-icon name="add"></ion-icon>
+          </ion-fab-button>
+        </ion-fab>
+      </ion-row>
+  </ion-grid>
+
+</ion-card>
+
+<ion-card>
+  <ion-grid>
+    <ion-row>
+          <h4>Step 4</h4>
+       </ion-row>
+    <ion-row>
+    <ion-col>
+      <ion-item>
+   
+      <ion-select label="Action" label-placement="floating">
+        <ion-select-option value="Bake">Bake</ion-select-option>
+        <ion-select-option value="Boil">Boil</ion-select-option>
+        <ion-select-option value="Sautée">Sautée</ion-select-option>
+      </ion-select>
+    </ion-item>
+    </ion-col>
+    <ion-col>
+      <ion-item>
+   
+      <ion-select label="Ingredient" label-placement="floating">
+        <ion-select-option value="Chicken">Chicken</ion-select-option>
+        <ion-select-option value="Tomato">Tomato</ion-select-option>
+        <ion-select-option value="Spinach">Spinach</ion-select-option>
+      </ion-select>
+    </ion-item>
+    </ion-col>
+    </ion-row><br>
+    
+    <ion-row>
+      <ion-input
+      shape = "round"
+      label="Instruction details"
+      labelPlacement="stacked"
+      [clearOnEdit]="true"
+      placeholder="ex. Add to pot and stir">
+      </ion-input>
+      </ion-row>
+
+      <ion-row>
+        <ion-fab>
+          <ion-fab-button>
+            <ion-icon name="add"></ion-icon>
+          </ion-fab-button>
+        </ion-fab>
+      </ion-row>
+  </ion-grid>
+
+</ion-card>
+
+
+<ion-grid>
+  <ion-row class="ion-align-items-center">
+    <ion-col size="12" class="ion-text-center">
+      
+      <a href = "add-recipe2"><ion-button color = "primary">FINISH MY RECIPE</ion-button></a>
+    </ion-col>
+    </ion-row>
+    </ion-grid>  
+
+  </ion-content>
+
+  <ion-footer>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-buttons>
+            <a href = "add-recipe1"><ion-button>
+              <ion-icon name="home-outline"></ion-icon>
+            </ion-button></a>
+          </ion-buttons>
+        </ion-col>
+        <ion-col>
+          <ion-buttons>
+            <a href = "add-recipe1"><ion-button>
+              <ion-icon name="search-outline"></ion-icon>
+            </ion-button></a>
+          </ion-buttons>
+        </ion-col>
+        <ion-col>
+          <ion-buttons>
+            <a href = "recipe-page"><ion-button>
+              <ion-icon name="add-circle-outline"></ion-icon>
+            </ion-button></a>
+          </ion-buttons>
+        </ion-col>
+        <ion-col>
+          <ion-buttons>
+            <a href = "explore"><ion-button>
+              <ion-icon name="book-outline"></ion-icon>
+            </ion-button></a>
+          </ion-buttons>
+        </ion-col>
+        <ion-col>
+          <ion-buttons>
+            <a href = "explore"><ion-button>
+              <ion-icon name="person-outline"></ion-icon>
+            </ion-button></a>
+          </ion-buttons>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+  </ion-footer>

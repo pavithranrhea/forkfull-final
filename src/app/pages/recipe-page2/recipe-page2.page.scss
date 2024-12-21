@@ -1,0 +1,53 @@
+ion-row{
+    --padding-start: 0;
+}
+
+ion-input {
+    --background: #A0B083;
+    --padding-bottom: 10px;
+  --padding-end: 10px;
+  --padding-start: 10px;
+  --padding-top: 10px;
+  --shape: "round";
+
+}
+
+ion-card {
+    --background: #A0B083;
+}
+
+ion-select {
+    -webkit-text-fill-color: black;
+    
+}
+
+ion-chip {
+    -webkit-text-fill-color: black;
+}
+
+ion-content {
+    -webkit-text-fill-color: white;
+}
+
+h1 {
+    -webkit-text-fill-color: black;
+}
+
+ion-fab-button {
+    --background: #A0B083;
+    --padding-bottom: 10px;
+    --padding-end: 10px;
+    --padding-start: 10px;
+    --padding-top: 10px;
+}
+
+ion-footer {
+    background: #fcfcfc;
+    --border-color: #fcfcfc;
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    -webkit-margin-start: 10px;
+  }
+
+
+
